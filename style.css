@@ -23,6 +23,38 @@ body::before {
     opacity: 0.7; 
     z-index: -1; 
 }
+header {
+    background-color: #f0f8ff; /* Light blue background */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding around the header */
+}
+
+#main-title {
+    font-size: 3em; /* Adjust the font size */
+    color: #000000; /* Change text color to orange-red */
+    animation: fadeIn 1s ease-in-out, textMove 2s infinite alternate ease-in-out; /* Add fade-in and movement animations */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Text movement animation */
+@keyframes textMove {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px); /* Moves text up and down */
+    }
+}
+
 
 header {
     display: flex;
@@ -90,7 +122,7 @@ main {
 }
 
 #ambulance {
-    background-color: #094ce7; 
+    background-color: #e3aae0; 
 }
 
 #fire {
@@ -105,10 +137,10 @@ main {
     background-color: #f7b500; 
 }
 #on-call{
-    background-color: #ba29e7; 
+    background-color: #ceed60; 
 }
 #municipal-police{
-    background-color: #dede3d; 
+    background-color: #b8b8b8; 
 }
 #blood-bank{
     background-color: red; 
