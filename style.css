@@ -90,15 +90,51 @@ main {
 }
 
 #ambulance {
-    background-color: #fe0000; 
+    background-color: #094ce7; 
 }
 
 #fire {
-    background-color: #6c5ce9;
+    background-color: #46e40d
 }
 
 #police {
-    background-color: #46e40d; 
+    background-color:#1deded ; 
+}
+
+#snakebite{
+    background-color: #f7b500; 
+}
+#on-call{
+    background-color: #ba29e7; 
+}
+#municipal-police{
+    background-color: #dede3d; 
+}
+#blood-bank{
+    background-color: red; 
+}
+#doctor-availability{
+    background-color: #eecdcd; 
+}
+
+
+.btn-doctor {
+    display: inline-block; 
+    padding: 15px 30px; 
+    font-size: 1.5em; 
+    font-weight: bold;
+    color: #ffffff; 
+    background-color: #007bff;
+    border: none; 
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.btn-doctor:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
 }
 
 .phone {

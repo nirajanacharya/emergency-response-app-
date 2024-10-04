@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>डाक्टरको उपलब्धता</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #8effee, #a9f392); /* Adds a vibrant gradient background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+    
+        .month-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+            padding: 20px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+    
+        .month-box {
+            background-color: #fffaf0;
+            border: 2px solid #d3c4a7;
+            border-radius: 10px;
+            width: 90vw;
+            max-width: 800px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    
+        .month-text {
+            font-size: 36px;
+            color: #5a4d3a;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+    
+        .doctor-details {
+            font-size: 24px;
+            color: #4a4030;
+            line-height: 1.8;
+            background-color: #f0e9d2;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+            text-align: left;
+        }
+    
+        .doctor-details p {
+            margin: 10px 0;
+        }
+    
+        /* Make it responsive */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .month-box {
+                padding: 20px;
+            }
+    
+            .month-text {
+                font-size: 30px;
+            }
+    
+            .doctor-details {
+                font-size: 18px;
+                padding: 15px;
+            }
+        }
+    
+        @media (min-width: 601px) and (max-width: 1200px) {
+            .month-text {
+                font-size: 32px;
+            }
+    
+            .doctor-details {
+                font-size: 22px;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+
+<di class="month-container">
+  
+    <class class="month-box">
+        <div class="month-text">असोज</div>
+        
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. सुष्मा थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> जनरल फिजिसियन </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+            <p><strong>मिती :</strong> असोज २०, २०८१ </p>
+            
+            
+        </div>
+    </class>
+
+
+    
+    <div class="month-box">
+        <div class="month-text">कार्तिक</div>
+
+     
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> बालरोग विशेषज्ञ </p>
+            <p><strong>मिती :</strong> कार्तिक ४ , २०८१ </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+            
+        </div>
+
+        
+         
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. राधिका जोशी</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> स्त्रीरोग  विशेषज्ञ </p>
+            <p><strong>मिती :</strong> कार्तिक ११ ,२०८१ </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+            
+        </div>
+
+       
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. श्याम अधिकारी</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> हाडजोर्नी तथा नसारोग</p>
+            <p><strong>मिती:</strong> कार्तिक २५ , २०८१ </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+            
+        </div>
+
+    </div>
+    <div class="month-box">
+        <div class="month-text">मङ्सिर</div>
+
+        
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> जनरल सर्जन  </p>
+            <p><strong>मिती:</strong> मङ्सिर २ , २०८१ </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+           
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> स्त्रीरोग  विशेषज्ञ   </p>
+            <p><strong>मिती:</strong> मङ्सिर २ , २०८१ </p>
+            <p><strong>स्थान:</strong> विरपुर हे.पो. </p>
+           
+        </div>
+
+      
+         
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. राधिका जोशी</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> छालारोग  विशेषज्ञ </p>
+            <p><strong>मिती:</strong>मङ्सिर १६ , २०८१  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+           
+        </div>
+
+        
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. श्याम अधिकारी</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> बालरोग विशेषज्ञ </p>
+            <p><strong>मिती:</strong> मङ्सिर २३, २०८१  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+            
+        </div>
+
+    </div>
+    <div class="month-box">
+        <div class="month-text">पुष</div>
+
+        
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> स्त्रीरोग  विशेषज्ञ   </p>
+            <p><strong>मिती:</strong> पुष ७ , २०८१ </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+            
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> हाडजोर्नी तथा नसारोग   </p>
+            <p><strong>मिती:</strong> पुष १४ , २०८१ </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा </p>
+            
+        </div>
+
+        
+         
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> बालरोग विशेषज्ञ   </p>
+            <p><strong>मिती:</strong> पुष १४ , २०८१ </p>
+            <p><strong>स्थान:</strong> लालपुर हे. पो </p>
+            
+        </div>
+
+        
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. श्याम अधिकारी</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> जनरल सर्जन </p>
+            <p><strong>मिती:</strong> पुष २१ , २०८१   </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+           
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. श्याम अधिकारी</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong>जनरल फिजिसियन </p>
+            <p><strong>मिती:</strong>पुष २८ , २०८१   </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+            
+        </div>
+
+    </div>
+
+    <div class="month-box">
+        <div class="month-text">माघ</div>
+
+       
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> मनोरोग विशेषज्ञ </p>
+            <p><strong>मिती:</strong> माघ ६ , २०८१  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+            
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> स्त्रीरोग  विशेषज्ञ  </p>
+            <p><strong>मिती:</strong> माघ १३ , २०८१  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा </p>
+            
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> जनरल फिजिसियन   </p>
+            <p><strong>मिती:</strong> माघ १३ , २०८१  </p>
+            <p><strong>स्थान:</strong> शिवगढि हे. पो </p>
+            
+        </div>
+
+        
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. श्याम अधिकारी</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> हाडजोर्नी तथा नसारोग </p>
+            <p><strong>मिती:</strong> माघ २७ , २०८१   </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+           
+        </div>
+
+    </div>
+    <div class="month-box">
+        <div class="month-text">फाल्गुन</div>
+
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> जनरल सर्जन </p>
+            <p><strong>मिती:</strong> फाल्गुन ११ , २०८१  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+            
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong>जनरल फिजिसियन   </p>
+            <p><strong>मिती:</strong> फाल्गुन १८ , २०८१  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा </p>
+            
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> जनरल फिजिसियन   </p>
+            <p><strong>मिती:</strong>फाल्गुन २५ , २०८१   </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+          
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> बालरोग विशेषज्ञ  </p>
+            <p><strong>मिती:</strong>फाल्गुन २५ , २०८१   </p>
+            <p><strong>स्थान:</strong> चनइ ३ हे.पो</p>
+           
+        </div>
+
+    </div>
+    <div class="month-box">
+        <div class="month-text">चैत्र</div>
+
+      
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> स्त्रीरोग  विशेषज्ञ  </p>
+            <p><strong>मिती:</strong> चैत्र १० , २०८१  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+           
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong>हाडजोर्नी तथा नसारोग</p>
+            <p><strong>मिती:</strong> चैत्र १७ , २०८१  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा </p>
+            
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> जनरल सर्जन    </p>
+            <p><strong>मिती:</strong>चैत्र २४ , २०८१  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+            
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> जनरल फिजिसियन </p>
+            <p><strong>मिती:</strong>चैत्र २४ , २०८१  </p>
+            <p><strong>स्थान:</strong> चनइ ४  हे. पो</p>
+            
+        </div>
+
+    </div>
+    <div class="month-box">
+        <div class="month-text">बैशाख</div>
+
+       
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> जनरल फिजिसियन  </p>
+            <p><strong>मिती:</strong>बैशाख ७ , २०८२  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+            
+        </div>
+
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> स्त्रीरोग  विशेषज्ञ  </p>
+            <p><strong>मिती:</strong>बैशाख ७ , २०८२  </p>
+            <p><strong>स्थान:</strong> जवाभारि हे. पो </p>
+           
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong>ENT  रोग विशेषज्ञ </p>
+            <p><strong>मिती:</strong> बैशाख २१ , २०८२ </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा </p>
+           
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong>स्त्रीरोग  विशेषज्ञ </p>
+            <p><strong>मिती:</strong>बैशाख २८ , २०८२ </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+           
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong>हाडजोर्नी तथा नसारोग</p>
+            <p><strong>मिती:</strong>बैशाख २८ , २०८२ </p>
+            <p><strong>स्थान:</strong> विसुनपुर हे.पो </p>
+           
+        </div>
+
+    </div>
+    <div class="month-box">
+        <div class="month-text">जेठ</div>
+
+        
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> हाडजोर्नी तथा नसारोग  </p>
+            <p><strong>मिती:</strong>जेठ ४ , २०८२  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+           
+        </div>
+
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> जनरल सर्जन </p>
+            <p><strong>मिती:</strong>जेठ १८ , २०८२ </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा </p>
+         
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong>हाडजोर्नी तथा नसारोग</p>
+            <p><strong>मिती:</strong>जेठ २५, २०८२  </p>
+            <p><strong>स्थान:</strong> थुनिया हे. पो </p>
+           
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong>स्त्रीरोग  विशेषज्ञ </p>
+            <p><strong>मिती:</strong>जेठ २५, २०८२  </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा </p>
+        </div>
+
+
+    </div>
+    <div class="month-box">
+        <div class="month-text">असार</div>
+
+       
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> हाडजोर्नी तथा नसारोग  </p>
+            <p><strong>मिती:</strong>असार ८ , २०८२ </p>
+            <p><strong>स्थान:</strong> आधारभुत अस्पताल, चनौटा</p>
+           
+        </div>
+        <div class="doctor-details">
+            <!-- <p><strong>डाक्टर:</strong> डा. अर्जुन थापा</p> -->
+            <p><strong>विशेषज्ञ चिकित्सक:</strong> बालरोग विशेषज्ञ </p>
+            <p><strong>मिती:</strong>असार ८ , २०८२ </p>
+            <p><strong>स्थान:</strong> बालापुर हे.पो </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
