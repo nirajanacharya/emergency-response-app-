@@ -1,4 +1,4 @@
-// Ensure the DOM is fully loaded
+
 document.addEventListener('DOMContentLoaded', function() {
     // Function to switch languages
     function setLanguage(language) {
@@ -25,12 +25,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Add click event to each phone link
-    const phones = document.querySelectorAll('.phone');
-    phones.forEach(function(phone) {
-        phone.addEventListener('click', function() {
-            alert('आपको आपतकालीन सेवामा फोन गरिँदैछ।');
-        });
-    });
+    // const phones = document.querySelectorAll('.phone');
+    // phones.forEach(function(phone) {
+    //     phone.addEventListener('click', function() {
+    //         alert('');
+    //     });
+    // });
 
     // Expose setLanguage to global scope so it can be called from HTML
     window.setLanguage = setLanguage;
