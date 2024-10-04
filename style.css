@@ -30,9 +30,9 @@ header {
 }
 
 #main-title {
-    font-size: 3em; /* Adjust the font size */
-    color: #000000; /* Change text color to orange-red */
-    animation: fadeIn 1s ease-in-out, textMove 2s infinite alternate ease-in-out; /* Add fade-in and movement animations */
+    font-size: 3em;
+    padding: 10px , 10px; /* Adjust the font size */
+    color: #ffffff; /* Change text color to orange-red */
 }
 
 /* Fade-in animation */
