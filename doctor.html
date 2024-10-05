@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #8effee, #a9f392); /* Adds a vibrant gradient background */
+            background: linear-gradient(135deg, #8effee, #a9f392); 
             margin: 0;
             padding: 0;
             display: flex;
@@ -16,6 +16,46 @@
             min-height: 100vh;
             flex-direction: column;
         }
+        .notice-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 12px; /* Rounded corners for a softer look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 500px; /* Restrict width for better readability */
+    margin: 0 auto; /* Center the notice on the page */
+}
+
+/* Simple and clean paragraph style */
+.return-notice {
+    font-family: 'Noto Sans', sans-serif; /* Nepali-friendly font */
+    font-size: 20px; /* Large font for readability */
+    color: #333; /* Dark color for better visibility */
+    text-align: center; /* Centered text for clarity */
+    margin-bottom: 15px; /* Space between text and button */
+}
+
+/* Button style */
+.return-button {
+    background-color: #3e2df7; /* Soft green color */
+    color: white;
+    padding: 12px 24px;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-radius: 8px; /* Rounded edges for a friendlier look */
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.return-button:hover {
+    background-color: #dcf311; /* Slightly darker green on hover */
+    transform: translateY(-2px); /* Small lift effect on hover */
+}
         .contact-info {
             font-size: 18px;
             color: #333;
@@ -444,6 +484,10 @@
             <p><strong>स्थान:</strong> बालापुर हे.पो </p>
         </div>
     </div>
+</div>
+<div class="notice-wrapper">
+    <p class="return-notice">शिवराज नगरपालिका आपतकालीन सेवामा फर्किनका लागि तल रहेको बटन थिच्नुहोस्</p>
+    <a href="index.html" class="return-button">फर्किनुहोस्</a>
 </div>
 
 </body>
