@@ -29,7 +29,7 @@ header {
     padding: 20px; /* Add some padding around the header */
 }
 
-.plain-notification {
+/* .plain-notification {
     padding: 15px;
     background-color: #fef4e1;
     border-left: 5px solid #ff9800;
@@ -47,8 +47,8 @@ header {
     font-size: 1.1rem;
     color: #333;
     margin: 0;
-  }
-  
+  } */
+
 #main-title {
     font-size: 3em;
     padding: 10px , 10px; /* Adjust the font size */
@@ -172,6 +172,9 @@ main {
     background-color: #cdfb17; 
 }
 
+#birth{
+    background-color: #f3f954; 
+}
 
 .btn-doctor {
     display: inline-block; 
