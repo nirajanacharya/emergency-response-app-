@@ -224,44 +224,102 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
-@media (max-width: 600px) {
-
+header {
+    padding: 15px;
+    
+}
+@media (max-width: 768px) {
+   
     h1 {
-        font-size: 1.8em;
+        font-size: 2em;
     }
-    
+
     .service {
-        font-size: 1.2em;
-    }
-    
+        font-size: 1.3em;
+        padding: 25px;     }
+
     .phone {
-        font-size: 1.2em;
+        font-size: 1.2em; 
+        padding: 12px;
+    }
+
+    .btn-doctor {
+        font-size: 1.2em; 
+        padding: 10px 20px; 
     }
 
     .lang-btn {
-        padding: 8px 12px;
+        padding: 8px 15px; 
         font-size: 0.9em;
+    }
+
+    header {
+        padding: 15px; 
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
+    
     h1 {
-        font-size: 1.5em;
+        font-size: 1.8em; 
     }
-    
+
     .service {
-        font-size: 1em;
-        padding: 20px;
+        font-size: 1.1em; 
+        padding: 20px; 
     }
-    
+
+    .btn-doctor {
+        font-size: 1.1em; 
+        padding: 8px 16px; 
+    }
+
     .phone {
-        font-size: 1.1em;
-        padding: 10px;
+        font-size: 1em; 
+        padding: 8px; 
     }
 
     .lang-btn {
         padding: 6px 10px;
-        font-size: 0.8em;
+        font-size: 0.8em; 
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .language-toggle {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+   
+    h1 {
+        font-size: 1.5em; 
+    }
+
+    .service {
+        font-size: 0.9em; 
+        padding: 15px; 
+    }
+
+    .btn-doctor {
+        font-size: 1em; 
+        padding: 6px 12px; 
+    }
+
+    .phone {
+        font-size: 0.9em; 
+    }
+
+    .lang-btn {
+        padding: 5px 8px; 
+        font-size: 0.7em;
+    }
+
+    footer a {
+        font-size: 1em; 
     }
 }
