@@ -148,6 +148,9 @@ main {
 #doctor-availability{
     background-color: #eecdcd; 
 }
+#sav-bahan{
+    background-color: #cdfb17; 
+}
 
 
 .btn-doctor {
@@ -223,6 +226,7 @@ footer a:hover {
 }
 
 @media (max-width: 600px) {
+
     h1 {
         font-size: 1.8em;
     }
