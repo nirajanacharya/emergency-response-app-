@@ -24,38 +24,20 @@ body::before {
     z-index: -1; 
 }
 header {
-    background-color: #f0f8ff; /* Light blue background */
-    text-align: center; /* Center the text */
-    padding: 20px; /* Add some padding around the header */
+    background-color: #f0f8ff; 
+    text-align: center;
+    padding: 20px; 
 }
 
-/* .plain-notification {
-    padding: 15px;
-    background-color: #fef4e1;
-    border-left: 5px solid #ff9800;
-    margin: 20px 0;
-    border-radius: 4px;
-  }
-  
-  #notification-title {
-    font-size: 1.5rem;
-    color: #ff5722;
-    margin-bottom: 10px;
-  }
-  
-  #notification-description {
-    font-size: 1.1rem;
-    color: #333;
-    margin: 0;
-  } */
+
 
 #main-title {
     font-size: 3em;
-    padding: 10px , 10px; /* Adjust the font size */
-    color: #ffffff; /* Change text color to orange-red */
+    padding: 10px , 10px; 
+    color: #ffffff; 
 }
 
-/* Fade-in animation */
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -65,13 +47,13 @@ header {
     }
 }
 
-/* Text movement animation */
+
 @keyframes textMove {
     0% {
         transform: translateY(0);
     }
     100% {
-        transform: translateY(-20px); /* Moves text up and down */
+        transform: translateY(-20px); 
     }
 }
 
@@ -104,7 +86,7 @@ h1 {
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
-    background-color: #22df11; /* A beautiful coral color */
+    background-color: #22df11; 
     color: #000000;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
@@ -112,7 +94,7 @@ h1 {
 }
 
 .lang-btn:hover {
-    background-color: #e05650; /* Darker shade on hover */
+    background-color: #e05650; 
     transform: scale(1.05);
 }
 
