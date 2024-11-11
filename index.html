@@ -1,169 +1,241 @@
 <!DOCTYPE html>
 <html lang="ne">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>शिवराज नगरपालिका आपतकालीन सेवा</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1 id="main-title">शिवराज नगरपालिका आपतकालीन सेवा</h1>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>शिवराज नगरपालिका आपतकालीन सहयोग</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        <main>
-            <section class="service" id="birth">
-                <h2 id="birth-title">📞  जटिल गर्भवती अवस्थामा</h2>
-                <p class="mini-details2" style="color: #050505;">जटिल गर्भवती अवस्थामा शिवराज नगरपालिकाको बर्थिङ सेन्टरबाट सिफारिस गर्नुभएकाहरुलाई बुटवल र भैरहवा सम्म निशुल्क एम्बुलेन्स सेवा उपलब्ध </p>
-                <a href="tel:9857014360" class="phone"><i
-                    class="phone-icon"></i>
-                9857014360</a>
-            <a href="tel:9857014359" class="phone"><i
-                    class="phone-icon"></i>
-                9857014359</a>
-            <a href="tel:9861684770" class="phone"><i
-                    class="phone-icon"></i>
-                9861684770</a>
-            <a href="tel:9745415425" class="phone"><i
-                    class="phone-icon"></i>
-                9745415425</a>
-            <a href="tel:9869852574" class="phone"><i
-                    class="phone-icon"></i>
-                9869852574</a>
+        :root {
+            --primary-color: #e63946;
+            --text-color: #1d3557;
+            --background-color: #f1faee;
+            --card-background: #ffffff;
+            --success-color: #2a9d8f;
+            --link-color: #0056b3;
+        }
 
-            </section>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            line-height: 1.8;
+            color: var(--text-color);
+            min-height: 100vh;
+            padding: 20px;
+            font-size: 18px;
+        }
 
-            <section class="service" id="ambulance">
-                <h2 id="ambulance-title">🚑 एम्बुलेन्स</h2>
-                <a href="tel:9857014360" class="phone"><i
-                        class="phone-icon"></i>
-                    9857014360</a>
-                <a href="tel:9857014359" class="phone"><i
-                        class="phone-icon"></i>
-                    9857014359</a>
-                <a href="tel:9861684770" class="phone"><i
-                        class="phone-icon"></i>
-                    9861684770</a>
-                <a href="tel:9745415425" class="phone"><i
-                        class="phone-icon"></i>
-                    9745415425</a>
-                <a href="tel:9869852574" class="phone"><i
-                        class="phone-icon"></i>
-                    9869852574</a>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-background);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
 
-            </section>
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid var(--primary-color);
+        }
 
-            <section class="service" id="fire">
-                <h2 id="fire-title">🚒 दमकल</h2>
-                <a href="tel:9857014361" class="phone"><i
-                        class="phone-icon"></i>
-                    9857014361</a>
-            </section>
+        .steps {
+            margin: 2rem 0;
+            padding: 1rem;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+        }
 
-            <section class="service" id="police">
-                <h2 id="police-title">👮 वडा कार्यलय प्रहरी चनौटा </h2>
-                <a href="tel:9857090357" class="phone"><i
-                        class="phone-icon"></i>
-                    9857090357</a>
-            </section>
-            <section class="service" id="snakebite">
-                <h2 id="snakebite-title">🐍 सर्पदंश उपचार</h2>
-                <p class="mini-details1" style="color: #0d0d0d;">
-                    गोरुसिङ्गे सर्पदंश उपचार केन्द्रसम्म निशुल्क एम्बुलेन्स सहित
-                    उपचार खर्च निशुल्क
-                </p>
-                <a href="tel:9857014360" class="phone"><i
-                        class="phone-icon"></i>
-                    9857014360</a>
-                <a href="tel:9857014359" class="phone"><i
-                        class="phone-icon"></i>
-                    9857014359</a>
-                <a href="tel:9861684770" class="phone"><i
-                        class="phone-icon"></i>
-                    9861684770</a>
-                <a href="tel:9745415425" class="phone"><i
-                        class="phone-icon"></i>
-                    9745415425</a>
-                <a href="tel:9869852574" class="phone"><i
-                        class="phone-icon"></i>
-                    9869852574</a>
-                    <p class="mini-details1" style="color: #0d0d0d;">
-                        सर्पदंश उपचार केन्द्र गोरुसिङ्गे परामर्शका लागि 
-                    </p>
-                    <a href="tel:9857050973" class="phone"><i
-                        class="phone-icon"></i>
-                        9857050973</a>
+        .step {
+            margin-bottom: 1.5rem;
+            padding-left: 50px;
+            position: relative;
+        }
 
+        .step-number {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 35px;
+            height: 35px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
 
-            </section>
+        .important-notice {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
 
-            <section class="service" id="on-call">
-                <h2 id="oncall-title">📞 अन-कल पशु  सेवा</h2>
-                <p class="mini-details2" style="color: #050505;">पशुपंक्षीका
-                    लागि निशुल्क प्राविधिक सेवा </p>
-                <a href="tel:9857014757" class="phone"><i
-                        class="phone-icon"></i>
-                    9857014757</a>
-                <a href="tel:9862216930" class="phone"><i
-                        class="phone-icon"></i>
-                    9862216930</a>
+        .qr-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
 
-            </section>
+        .qr-code {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border: 8px solid white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            margin: 1rem auto;
+        }
 
-            <section class="service" id="municipal-police">
-                <h2>🚓 नगर प्रहरी</h2>
-                <a href="tel:9867149511" class="phone"><i
-                        class="phone-icon"></i>
-                    9867149511</a>
-            </section>
+        .button {
+            background-color: var(--link-color);
+            color: white;
+            border: none;
+            border-radius: 15px;
+            padding: 1.5rem 2rem;
+            font-size: 1.4em;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            margin: 1rem 0;
+            display: block;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-            <section class="service" id="blood-bank">
-                <h2>🩸 रक्त बैंक</h2>
-                <p class="mini-details2" style="color: #050505;"> यी शाखाहरूमा
-                    निःशुल्क रगत सेवा उपलब्ध छ </p>
-                <h3>बुटवल शाखा</h3>
-                <a href="tel:9857041004" class="phone"><i
-                        class="phone-icon"></i>
-                    9857041004</a>
-                <h3>भैरहवा शाखा</h3>
-                <a href="tel:9847039373" class="phone"><i
-                        class="phone-icon"></i>
-                    9847039373</a>
-            </section>
-            <section class="service" id="sav-bahan">
-                <h2>🚑 शव वहान</h2>
-                <p style="color: black;"><strong>शिवराज नगरपालिका
-                        भित्र:</strong> शव वहान सेवा
-                    <strong>निशुल्क</strong>!</p>
-                <p style="color: black;">ध्यान राख्नुहोस्, यो सेवा <strong>मात्र
-                        शिवराज नगरपालिका</strong> भित्र उपलब्ध छ</p>
-                <a href="tel:9847042633" class="phone"><i
-                        class="phone-icon"></i>9847042633</a>
-                <a href="tel:9745415425" class="phone"><i
-                        class="phone-icon"></i>9745415425</a>
-            </section>
+        .button:hover {
+            background-color: #003d82;
+        }
 
-            <section id="doctor-availability" class="service doctor-section">
-                <h2 id="doctor-title">🩺 विशेषज्ञ डाक्टरको उपस्थिती</h2>
-                <p id="doctor-description" class="mini-details">आधारभूत
-                    अस्पतालमा तथा बिभिन्न हेल्थ पोस्टमा कुन दिन कुन विशेषज्ञ डाक्टर
-                    आउनुहुन्छ सम्पूर्ण जानकारीका लागि तल रहेको बटनमा
-                    थिच्नुहोस्</p>
-                <a href="doctor.html" 
-                    class="btn-doctor"> विशेषज्ञ डाक्टरहरूको तालिका हेर्नुहोस्</a>
-            </section>+
+        .download-button {
+            background-color: var(--primary-color);
+        }
 
-        </main>
+        .download-button:hover {
+            background-color: #c1121f;
+        }
 
-        <footer>
-            <footer>
-                <p>Created by Nirajan | <a
-                        href="https://www.linkedin.com/in/nirajanacharya/"
-                        target="_blank">Contact me on LinkedIn</a></p>
-            </footer>
-        </footer>
+        .emergency-link {
+            display: block;
+            text-align: center;
+            color: var(--link-color);
+            font-size: 1.2em;
+            margin: 2rem 0;
+            padding: 1rem;
+            background: #e8f4ff;
+            border-radius: 10px;
+            border: 2px solid var(--link-color);
+            word-break: break-all;
+            text-decoration: none;
+        }
 
-        <script src="scripts.js"></script>
-    </body>
+        .emergency-link:hover {
+            background: #d1e8ff;
+        }
+
+        .help-text {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .link-section {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: #e8f4ff;
+            border-radius: 10px;
+            border: 2px dashed var(--link-color);
+        }
+
+        .link-title {
+            text-align: center;
+            color: var(--link-color);
+            font-size: 1.3em;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>शिवराज नगरपालिका आपतकालीन सहयोग</h1>
+        
+        <div class="important-notice">
+            ⚠️ कृपया ध्यान दिनुहोस्: यो लिंक र QR कोड तपाईंको मोबाइलमा सेभ गर्नुहोस्। आपतकालमा चाँडो सहयोग पाउन यो धेरै जरुरी छ।
+        </div>
+
+        <div class="link-section">
+            <div class="link-title">📱 आपतकालीन सेवाको लिंक</div>
+            <a href="https://www.shivarajmun.gov.np/ne/content/shivraj-emergency-service" 
+               class="emergency-link" 
+               target="_blank">
+                www.shivarajmun.gov.np/ne/content/shivraj-emergency-service
+            </a>
+            <p style="text-align: center; color: var(--link-color);">
+                ☝️माथिको नीलो लिंकलाई आफ्नो मोबाइलको नोटमा लेखेर राख्नुहोस्।
+            </p>
+        </div>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">१</div>
+                <p>माथिको नीलो लिंकलाई आफ्नो मोबाइलको नोटमा लेखेर राख्नुहोस्।</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">२</div>
+                <p>यदि तपाईंसँग स्मार्टफोन छ भने, तलको QR कोडको फोटो खिच्नुहोस् वा डाउनलोड गर्नुहोस्।</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">३</div>
+                <p>आपतकालीन अवस्थामा यो लिंक वा QR कोड प्रयोग गरेर तुरुन्तै सहयोग माग्न सक्नुहुनेछ।</p>
+            </div>
+        </div>
+
+        <div class="qr-container">
+            <img src="./shivaraj.jpg" alt="आपतकालीन सेवा QR कोड" class="qr-code" id="qrCode">
+        </div>
+        
+        <a href="./shivaraj.jpg" 
+           class="button download-button" 
+           download="shivaraj-emergency-qr.jpg">
+            📱 QR कोड डाउनलोड गर्नुहोस्
+        </a>
+
+        <p class="help-text">
+            सहयोग चाहिएमा नजिकैको युवा वा चिनेको व्यक्तिलाई सोध्नुहोस्
+        </p>
+    </div>
+</body>
 </html>
